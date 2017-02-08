@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend finder survey</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1> <span class = "glyphicon glyphicon-heart"></span> Survey Time!</h1>
+            <h4> Remember, honesty is the second best policy (after returns good for store credit only without receipt) and we want to find you some friends that you're actually compatible with. Not like Kevin Blaze from 3rd grade who acted like your friend but really he just had a crush on my sister.</h4>
+        </div>
+        <div class="row">
+            <div class="col-large-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>OK dudes and dudettes, Spill your guts and you'll be one step closer to being one step farther from dying alone. </strong></h3>
+                    </div>
+                    <div class="panel-body">
+                        <form type="POST" role="form">
+                            <div class="form-group">
+                                <label for="name">Please enter your name, and no, we won't call you "Snake."</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Please add a link to a RECENT photo. RECENT! That one with you and all of your cats will do fine....</label>
+                                <input type="text" class="form-control" id="photo">
+                            </div>
+                            <h2 class="quest1">Question 1</h2>
+                            <h3 class="question">What is your favorite excuse for why you still live with your mom?</h3>
+                            <div class="dropdown">
+                                <button class="btn-secondary dropdown-toggle" type="button" id="Interests" data-toggle="dropdown" aria haspopup="true" aria-expanded="false">
+                                    Choose an excuse</button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#" value= 1>She's really more living with me.</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#" value= 2>I worry about her being by herself... with my dad.</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#" value=3>Her feet aren't gonna rub themselves every night!</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#" value=4>I'm actually renting the upstairs out to her so....</a>
+                                </div>
+                            </div>
+                            <h2 class="quest2">Question 2</h2>
+                            <h3 class="question">What is your favorite passtime?</h3>
+                            <div class="dropdown">
+                                <button class="btn-secondary dropdown-toggle" type="button" id="Interests" data-toggle="dropdown" aria haspopup="true" arie-expanded="false">
+                                    Click a pastime</button>
+                                <div class="dropdown-menu" aria labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Exercise</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">Travel</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">Movies</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">Listening to the lamentations of the women of my enemies.</a>
+                                </div>
+                            </div>
+                            <h2 class="quest3">Question 3</h2>
+                            <h3 class="question">What is your favorite color.</h3>
+                            <div class="dropdown">
+                                <button class="btn-secondary dropdown-toggle" type="button" id="Interests" data-toggle="dropdown" aria haspopup="true" arie-expanded="false">
+                                    Click a color</button>
+                                <div class="dropdown-menu" aria labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Red</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">Orange</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">Yellow</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">Blue... NO! Yellow!</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>	
+	<script type="text/javascript" src="../data/friends.js"></script>
+
+</body>
+</html>
