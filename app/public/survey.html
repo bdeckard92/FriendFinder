@@ -139,6 +139,13 @@
                             <br>
                             <h3>After you've clicked all the buttons above click the one below to submit your answers and find true love! (or at least someone as desparate and lonenly as you are -_-)</h3>
                             <button type="submit" class="btn btn-success submit">Submit: Don't be scared trust the system! Just like Frodo and Samwise had to trust Smeagol because they didn't really have any other choice</button>
+                            <hr>
+                            <footer class="footer">
+                                <div class="container">
+                                    <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+                                </div>
+                             </footer>
+                                
                     </div>
                 </div>
                 </form>
@@ -182,7 +189,7 @@
                 ]
             };
             var currentURL = window.location.origin;
-            $.post(currentURL + "/api/frieds", userData, function(data){
+            $.post(currentURL + "/api/friends", userData, function(data) {
                 alert("working");
             })
         }
